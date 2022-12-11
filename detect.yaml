@@ -1,0 +1,6 @@
+path: /content/drive/MyDrive/detect_people/data
+train: /content/drive/MyDrive/detect_people/data/images/train
+val: /content/drive/MyDrive/detect_people/data/images/valid
+
+nc: 1
+names: ['Human']
