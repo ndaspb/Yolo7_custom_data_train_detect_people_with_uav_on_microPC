@@ -68,8 +68,7 @@ while True:
     # timeLastPrediction = timeNow
     #
     ret, img = cap.read()
-    # img = cv2.imread('/content/yolov7/58733864-enjoying-sun-man-is-caressing-yellow-labrador-retriever-young-man-sitting-on-the-hill-with-his-dog-a.jpg')
-    # img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+
 
     image = img.copy()
     image, ratio, dwdh = letterbox(image, auto=False)
